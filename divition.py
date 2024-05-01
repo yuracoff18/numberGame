@@ -3,5 +3,5 @@ def div(x,y):
         print("Can't divide by 0")
         print("0 replaced by 1")
         y = 1
-        
-    return x / y
+     print(f'{x} / {y} is equal to {x / y}')
+     return x / y

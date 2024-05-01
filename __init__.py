@@ -1,14 +1,18 @@
 from addition import add
+from subtraction import res 
 from multiplication import mul
 from divition import div
+from pow import potencia
 
 def game():
      score = 0
 
      while True:
          print('======== Menu ========'
-         '\n3. Divition'
-         '\n2. Multiplication'
+         '\n5. Power'
+         '\n4. Divition'
+         '\n3. Multiplication'
+         '\n2. Subtraction'
          '\n1. Add'
          '\n0. Exit')
 
@@ -27,13 +31,13 @@ def game():
          if option == 1:
              result = add(num_1, num_2)
          elif option == 2:
-             result = mul(num_1, num_2)
+             result = res(num_1, num_2) 
          elif option == 3:
-             result = div(num_1, num_2)
+             result = mul(num_1, num_2)
          elif option == 4:
-             pass
+             result = div(num_1, num_2)
          elif option == 5:
-             pass
+             result = potencia(num_1, num_2)
          elif option == 6:
              pass
 
