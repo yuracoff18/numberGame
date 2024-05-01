@@ -3,12 +3,14 @@ from subtraction import res
 from multiplication import mul
 from divition import div
 from pow import potencia
+from mod import modul
 
 def game():
      score = 0
 
      while True:
          print('======== Menu ========'
+         '\n6. Modul'
          '\n5. Power'
          '\n4. Divition'
          '\n3. Multiplication'
@@ -39,7 +41,7 @@ def game():
          elif option == 5:
              result = potencia(num_1, num_2)
          elif option == 6:
-             pass
+             result = modul(num_1, num_2)
 
          if result == answer:
              score += 1
