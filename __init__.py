@@ -1,11 +1,13 @@
 from addition import add
 from multiplication import mul
+from divition import div
 
 def game():
      score = 0
 
      while True:
          print('======== Menu ========'
+         '\n3. Divition'
          '\n2. Multiplication'
          '\n1. Add'
          '\n0. Exit')
@@ -27,7 +29,7 @@ def game():
          elif option == 2:
              result = mul(num_1, num_2)
          elif option == 3:
-             pass
+             result = div(num_1, num_2)
          elif option == 4:
              pass
          elif option == 5:
