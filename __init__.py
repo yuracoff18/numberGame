@@ -13,6 +13,8 @@ from mod import modul
     Control de versiones p2
 
 """
+
+# MAIN
 def main():
      score = 0
 
@@ -61,5 +63,6 @@ def main():
              f'\nYou score is {score}')
 
 
+# INITIALISER
 if __name__ == "__main__":
     main()
