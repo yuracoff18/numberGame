@@ -13,11 +13,7 @@ from mod import modul
     Control de versiones p2
 
 """
-
-
-
-
-def game():
+def main():
      score = 0
 
      while True:
@@ -64,4 +60,6 @@ def game():
              print(f'======== Game Over ========'
              f'\nYou score is {score}')
 
-game()
+
+if __name__ == "__main__":
+    main()
