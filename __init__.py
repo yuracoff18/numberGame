@@ -14,10 +14,8 @@ from mod import modul
 
 """
 
-
-
-
-def game():
+# MAIN
+def main():
      score = 0
 
      while True:
@@ -64,4 +62,7 @@ def game():
              print(f'======== Game Over ========'
              f'\nYou score is {score}')
 
-game()
+
+# INITIALISER
+if __name__ == "__main__":
+    main()
