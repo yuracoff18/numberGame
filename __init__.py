@@ -5,6 +5,18 @@ from divition import div
 from pow import potencia
 from mod import modul
 
+"""
+    Yura Hernandez H
+    Herramientas computacionales
+    1er Semestre
+    
+    Control de versiones p2
+
+"""
+
+
+
+
 def game():
      score = 0
 
